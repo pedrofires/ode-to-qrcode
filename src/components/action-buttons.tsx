@@ -68,7 +68,7 @@ const ActionButtons = ({ qrImages, setQrImages, input }: ActionButtonsProps) => 
 
       <button
         onClick={generateQRCodes}
-        disabled={generateLoading}
+        disabled={generateLoading || !input}
         className="w-[95%] rounded-xl bg-zinc-800 p-4 text-white cursor-pointer transition-all hover:text-zinc-800 hover:bg-zinc-200 border border-zinc-800 disabled:opacity-30"
       >
         Gerar QR Code(s)

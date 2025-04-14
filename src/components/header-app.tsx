@@ -1,7 +1,12 @@
+import Harpa from "/icon.svg";
+
 const HeaderApp = ({ input, setInput }: { input: string; setInput: (e: any) => void }) => {
   return (
     <div className="flex flex-col gap-2 items-center w-full">
-      <h1 className="text-3xl italic py-8 w-full text-center bg-zinc-800 text-white">Ode to QrCode</h1>
+      <div className="flex bg-zinc-800 items-center justify-center w-full">
+        <img src={Harpa} className="w-12 h-12" alt="ícone de uma harpa" />
+        <h1 className="text-3xl italic py-8 text-center text-white">Ode to QrCode</h1>
+      </div>
       <span className="mt-12 mb-4">Seja bem vindo ao ode to QrCode</span>
       <textarea
         rows={4}
