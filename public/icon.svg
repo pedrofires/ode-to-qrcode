@@ -1,0 +1,23 @@
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="2">
+  <!-- Estrutura lateral (braço da harpa) -->
+  <path d="M40 280 C30 200, 20 100, 60 20" stroke="#8B5E3C" fill="none" stroke-width="10"/>
+
+  <!-- Base -->
+  <rect x="30" y="280" width="40" height="10" fill="#8B5E3C"/>
+
+  <!-- Tampo superior da harpa -->
+  <path d="M60 20 Q140 40 160 80" stroke="#8B5E3C" stroke-width="10" fill="none"/>
+
+  <!-- Cordas da harpa -->
+  <line x1="60" y1="20" x2="60" y2="280" stroke="#cccccc" stroke-width="1"/>
+  <line x1="70" y1="22" x2="61" y2="280" stroke="#cccccc" stroke-width="1"/>
+  <line x1="80" y1="25" x2="62" y2="280" stroke="#cccccc" stroke-width="1"/>
+  <line x1="90" y1="30" x2="63" y2="280" stroke="#cccccc" stroke-width="1"/>
+  <line x1="100" y1="36" x2="64" y2="280" stroke="#cccccc" stroke-width="1"/>
+  <line x1="110" y1="43" x2="65" y2="280" stroke="#cccccc" stroke-width="1"/>
+  <line x1="120" y1="50" x2="66" y2="280" stroke="#cccccc" stroke-width="1"/>
+  <line x1="130" y1="58" x2="67" y2="280" stroke="#cccccc" stroke-width="1"/>
+  <line x1="140" y1="66" x2="68" y2="280" stroke="#cccccc" stroke-width="1"/>
+  <line x1="150" y1="73" x2="69" y2="280" stroke="#cccccc" stroke-width="1"/>
+  <line x1="160" y1="80" x2="70" y2="280" stroke="#cccccc" stroke-width="1"/>
+</svg>
